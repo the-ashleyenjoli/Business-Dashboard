@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8fb;
+    margin: 0;
+    color: #4a2c2c;
+}
+
+header {
+    background: linear-gradient(to right, #ffe0ec, #f9d1e2);
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid #f7c6d7;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.4em;
+    color: #cc3366;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    color: #7d4954;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.metrics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ffd5e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33% - 13.33px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card h2 {
+    color: #b03060;
+}
+
+.card p {
+    font-size: 1.8em;
+    margin: 10px 0 0;
+    color: #333;
+}
+
+.tasks h2, .notes h2 {
+    color: #b03060;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #fff0f6;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ffdce5;
+    font-size: 1em;
+    margin-top: 10px;
+    resize: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff0f5;
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 60px;
+}
